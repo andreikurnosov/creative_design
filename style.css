@@ -444,7 +444,161 @@ html {
   transition: background-color 0.5s;
 }
 
+@media (max-width: 1400px) {
+  .floating_bg {
+    top: -120vw;
+  }
 
-.scroll-up-btn:hover {
-  background-color: #32e7ff;
+  .section-1_heading {
+    font-size: 6rem;
+    top: 25vw;
+    width: 70rem;
+  }
+
+  .navbar_link {
+    font-size: 2rem;
+  }
+
+  .logo {
+    top: 75%;
+  }
+
+  .logo i {
+    font-size: 10rem;
+  }
+
+  .section_heading {
+    font-size: 8rem;
+    margin-bottom: 10rem;
+  }
+
+  .section-2 {
+    height: auto;
+  }
+
+  .customers_wrapper {
+    flex-wrap: wrap;
+  }
+
+  .customer {
+    margin: 5rem 10rem;
+  }
+
+  .section-3 {
+    height: auto;
+  }
+
+  .team_wrapper {
+    flex-wrap: wrap;
+  }
+  .team_member {
+    margin: 5rem 10rem;
+  }
+
+  .form_container {
+    height: 60%;
+  }
+  .form_img {
+    display: none;
+  }
+  .form_contact {
+    transform: translateY(0);
+  }
+
+  .form_contact:hover {
+    transform: translateY(-1rem);
+  }
+  .copyright {
+    margin: 5rem 0 4rem 0;
+  }
+}
+
+@media (max-width: 1150px) {
+  .floating_bg {
+    top: -110vw;
+  }
+  .section-1_heading {
+    font-size: 5rem;
+    top: 30vw;
+    width: 60rem;
+  }
+  .logo i {
+    font-size: 9rem;
+  }
+}
+
+@media (max-width: 950px) {
+  .floating_bg {
+    top: -100vw;
+  }
+  .section-1_heading {
+    top: 40vw;
+  }
+  .navbar {
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 750px) {
+  html {
+    font-size: 50%;
+  }
+  .floating_bg {
+    top: -90vw;
+  }
+  .section-1_heading {
+    top: 48vw;
+  }
+  .section_heading {
+    margin-bottom: 5rem;
+  }
+}
+
+@media (max-width: 550px) {
+  html {
+    font-size: 45%;
+  }
+
+  .floating_bg {
+    top: -70vw;
+  }
+
+  .section-1_heading {
+    top: 65vw;
+    width: 42rem;
+    font-size: 3.5rem;
+  }
+
+  .section_heading {
+    font-size: 6rem;
+  }
+  .customer {
+    margin: 5rem 0;
+  }
+  .team_member {
+    margin: 5rem 0;
+  }
+  .section-4 {
+    height: auto;
+  }
+  .form_container {
+    background-color: transparent;
+    box-shadow: none;
+  }
+  .form_contact {
+    box-shadow: 1rem 1rem 2rem #aaa;
+  }
+  .form_contact:hover {
+    box-shadow: 2rem 2rem 3rem #aaa;
+  }
+  .copyright {
+    font-size: 1.8rem;
+    margin: 5rem;
+    text-align: center;
+  }
+
+  .scroll-up-btn {
+    bottom: 1rem;
+    right: 1rem;
+  }
 }
